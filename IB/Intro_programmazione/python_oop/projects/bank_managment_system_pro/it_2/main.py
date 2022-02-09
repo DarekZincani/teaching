@@ -19,17 +19,17 @@ print(cliente1)
 # RISPONDI ALLE DOMANDE SCRITTE NEI COMMENTI * 
 
 #1. Commenta il metodo con il decorator @property nella classe Cliente per l'attributo nome_cliente. 
-# OUTPUT PREVISTO:  
+# OUTPUT PREVISTO:  Davide
 print( cliente1.nome_cliente )
 
 
 #2. Decommenta il codice del punto #1. Ora cambia il nome del metodo con il decorator @property
 # per l'attributo nome_cliente 
-# OUTPUT PREVISTO:  
+# OUTPUT PREVISTO:  Davide
 print(account.cliente.nome_cliente) 
 
 
 #3. Commenta il metodo con decorator setter per l'attributo nome_cliente nella classe Ciente. 
-# OUTPUT PREVISTO: 
+# OUTPUT PREVISTO: Giovanni
 cliente1.nome_cliente = 'Giovanni'
 print(account.cliente.nome_cliente) 
